@@ -2,6 +2,7 @@ import { CreatePageHome } from "../pages/Home.js";
 import { CreatePageQuienesSomos } from "../pages/QuienesSomos.js";
 import { Equipment } from "../pages/Equipment.js";
 import { CreatePageNews } from "../pages/News.js";
+import { Contacto } from "../pages/Contacto.js";
 import { setMainLayout } from "../components/layout/mainLayaout.js";
 
 const routes = {
@@ -10,6 +11,7 @@ const routes = {
   quienesSomos: { page: CreatePageQuienesSomos, layout: "full" },
   equipment: { page: Equipment, layout: "left" },
   noticias: { page: CreatePageNews, layout: "full" },
+  contacto: { page: Contacto, layout: "default" },
 };
 
 export function navigate(route) {
